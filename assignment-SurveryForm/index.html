@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Career Fair Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Career Fair Survey</h1>
+    <p id="description">Share your experiences, interests, and expectations to help us <br>understand what makes a career fair valuable and engaging.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" name="name" type="text" placeholder="Palak Rakholia" required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" name="email" placeholder="prakholia@gmail.com" type="email"  required /></label>
+        <label for="number" id="number-label">How many companies did you interact with at the career fair?<input id="number" name="number" type="number" min=0 max=10 placeholder="Please enter number between 0 to 10"/></label>
+        <label for="dropdown">What best describes your current career status?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Recent Graduate</option>
+            <option value="2">Currently Employed</option>
+            <option value="3">Looking for a Job</option>
+            <option value="4">Career Changer</option>
+            <option value="5">Other</option>
+          </select>
+        </label>
+        <label for="radio">Would you attend another career fair?</label>
+        <label for="yes" name="radio"><input id="yes" type="radio" name="radio" class="inline" value="yes" checked /> Yes</label>
+        <label for="not-sure" name="radio"><input id="not-sure" type="radio" name="radio" class="inline" value="not-sure"/> Not sure</label>
+        <label for="maybe" name="radio"><input id="maybe" type="radio" name="radio" class="inline" value="maybe"/> Maybe</label>
+        <label> Which industries are you interested in?</label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="technology"/> Technology
+        </label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="finance"/> Finance
+        </label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="healthcare"/> Healthcare
+        </label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="marketing"/> Marketing
+        </label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="engineering"/> Engineering
+        </label>
+        <label for="checkbox">
+        <input class="inline" id="checkbox" type="checkbox" name="industries" value="education"/> Education
+        </label>
+        <label for="additional-comment" >Any additional comments or suggestions?
+          <textarea name="additional-comment" rows="4" cols="30" placeholder="Enter your comment here"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

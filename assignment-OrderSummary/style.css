@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(35, 16, 22, 0.3);
+  font-family: Montserrat;
+}
+
+.main-heading {
+  font-size: 4.375rem;
+  color: white;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.order-container {
+  width: 800px;
+  height: 784px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+
+.header {
+  background: linear-gradient(90deg, #FD7B46, #FE4E9B);
+  color: white;
+  padding: 31px 20px 27px;
+  font-family: Arial;
+}
+
+.order-summary {
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 700;
+}
+
+.item {
+  padding-top: 9px;
+   display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  line-height: 100%
+}
+
+.divider {
+  border-bottom: 1px solid white;
+  padding: 6px 0;
+}
+
+.total {
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.payment {
+  padding: 24px 20px;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  padding-bottom: 21px;
+  font-family: Arial;
+}
+
+.payment-card {
+  display: flex;
+  gap: 20px; 
+}
+
+.payment-card-item {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #FE4E9B;
+  border-radius: 10px;
+  width: 370px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.3)
+}
+
+.payment-card img {
+  width: 138.5px;
+  height: 36px;
+}
+
+.paypal {
+  object-fit: contain;
+}
+
+.disabled-paypal {
+  filter: grayscale(100%);
+  border: none;
+}
+
+.payment-content {
+  color: #939393;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.card {
+  padding: 59px 20px 54px
+}
+
+.card-panel {
+  display: flex;
+  color: #939393;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%
+}
+
+.card-number {
+  width: 342px;
+  max-width: 100%;
+  background-image: url("https://github.com/PalakRakholia/Hackyourfuture-assignments/blob/main/assignment-OrderSummary/assets/Vector.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.card-number-item {
+  padding-right: 36px;
+  text-align: center;
+}
+
+
+.exp-date {
+  width: 162px;
+}
+
+.exp-date-item {
+  padding-right: 21px;
+  text-align: center;
+}
+
+.sec-code {
+  width: 199px;
+  background-image: url("https://github.com/PalakRakholia/Hackyourfuture-assignments/blob/main/assignment-OrderSummary/assets/Vector.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.sec-code-item {
+  text-align: center;
+}
+
+input {
+  min-height: 2.44em;
+  background-color: #F3F1F2;
+  border: 1px solid #939393;
+  border-radius: 4px;
+  color: #939393;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+  padding-left: 12px
+}
+
+label {
+  display: block;
+}
+
+.buy-btn {
+  display: block;
+  width: 326px;
+  border-radius: 69px;
+  color: white;
+  background: linear-gradient(90deg, #FD7B46, #FE4E9B);
+  height: 68px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  align-item: center;
+  margin: 0 auto;
+  border: none;
+}
+
+.need-help {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 23px 0 39px;
+  font-family: Arial;
+  background: linear-gradient(90deg, #FE4E9B, #FD7B46);
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 600px) {
+  .order-container {
+    width: 300px;
+    height: 784px;
+  }
+  .order-summary {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  .payment-card-item {
+    width: 120px;
+    height: 110px;
+  }
+  .payment-card img {
+    width: 100px;
+    height: 25.99px;
+  }
+  .payment-content {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  .main-heading {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .sub-heading {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .card-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+  .card-panel > div:first-child {
+    width: 100%;
+    padding-bottom: 14px;
+  }
+  .card-panel > div {
+    width: 50%
+  }
+  .card-number {
+    width: 260px;
+  }
+  .card-number-item {
+    padding-right: 0px;
+  }
+  .exp-date {
+    width: 130px;
+  }
+  .exp-date-item {
+    padding: 0px
+  }
+  .sec-code {
+    width: 120px;
+  }
+  .buy-btn {
+    width: 260px;
+    height: 68px;
+  }
+  .card {
+    padding: 5px 20px 39px;
+  }
+}

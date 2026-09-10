@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>PAYMENT <span>FORM</span></title>
+  </head>
+
+  <body class="page">
+    <div class="main-heading">SOME HEADER</div>
+    <p class="sub-heading">some optional stuff.</P>
+    <div class="order-container">
+    <header class="header">
+      <div id="order-summary" class="order-summary">Order Summary</div>
+      <article class="item">
+      <p>Total</p><p>$333 / month</p>
+      </article>
+      <div class="divider"></div>
+      <article class="item total">
+      <p>Total</p><p>$100</p>
+      </article>
+    </header>
+
+    <form>
+      <div class="payment">
+        <h2 class="sub-title">Payment Method</h2>
+        <section class="payment-card">
+        <article class="payment-card-item">
+        <img src="https://raw.githubusercontent.com/HackYourFuture-CPH/program/refs/heads/main/courses/foundation/html-and-css/order-form-task/cards.webp?raw=true" alt="cards images">
+        <p class="payment-content">Credit / Debit</p>
+        </article>
+        <article class="payment-card-item disabled-paypal"> 
+        <img src="https://github.com/HackYourFuture-CPH/program/blob/main/courses/foundation/html-and-css/order-form-task/paypal.webp?raw=true" class="paypal">
+        <p class="payment-content">PayPal</p>
+        </article>
+        </section>
+      </div>
+
+      <div class="card">
+        <h2 class="sub-title">Card Info</h2>
+        <div class="card-panel">
+          <div class="card-number-item">
+            <label for="card-number">Card number</label><br />
+            <input
+              type="text"
+              id="card-number"
+              placeholder="1234 1234 1234 1234"
+              name="card-number"
+              class="card-number"
+              required
+            />
+          </div>
+
+          <div class="exp-date-item">
+            <label for="exp-date">Expiry date</label><br />
+            <input
+              type="text"
+              id="exp-date"
+              placeholder="MM / YY"
+              name="exp-date"
+              class="exp-date"
+              required
+            />
+          </div>
+
+          <div class="sec-code-item">
+            <label for="sec-code" >Security code</label><br />
+            <input
+              type="text"
+              id="sec-code"
+              placeholder="CVV"
+              name="sec-code"
+              class="sec-code"
+              required
+            />
+          </div>
+        </div>
+      </div>
+
+      <input type="submit" id="buy-now" value="Buy now" class="buy-btn"/>
+      <p class="need-help">Need Help?</p>
+    </form>
+    </div>
+  </body>
+</html>
