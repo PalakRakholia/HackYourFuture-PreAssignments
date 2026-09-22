@@ -1,4 +1,4 @@
-# HackYourFuture Pre-Assignments
+# HackYourFuture-PreAssignments
 
 This repository contains my pre-assignment projects completed as part of the HackYourFuture application process.
 
