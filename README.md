@@ -1,39 +1,32 @@
-# Hackyourfuture-assignments
+# HackYourFuture Pre-Assignments
 
-hello there 
+This repository contains my pre-assignment projects completed as part of the HackYourFuture application process.
 
-## heading 2
+The assignments focus on building a strong foundation in **HTML, CSS, responsive design, and basic frontend development**.
 
-### heading 3
+## Assignments
 
-#### heading 4
+| Assignment | Description |
+|------------|-------------|
+| [Application Test](./assignment-ApplicationTest) | Application test project |
+| [Cafe Menu](./assignment-CafeMenu) | A cafe menu built with HTML and CSS |
+| [Flexbox Photo Gallery](./assignment-FlexboxPhotoGallery) | A responsive photo gallery using CSS Flexbox |
+| [Order Summary](./assignment-OrderSummary) | An order summary component focusing on layout and styling |
+| [Rothko Painting](./assignment-RothkoPainting) | A CSS-based recreation of a Rothko-style painting |
+| [Set of Coloured Markers](./assignment-SetofColouredMarkers) | A CSS project demonstrating colors, gradients, and styling |
+| [Survey Form](./assignment-SurveryForm) | A responsive survey form built with HTML and CSS |
 
-This text is **bold**
+## Technologies Used
 
-This is *italic*
+- HTML5
+- CSS3
+- CSS Flexbox
+- CSS Gradients
+- Responsive Web Design
 
-==highlight==
+## How to View the Projects
 
+1. Clone this repository:
 
-This is code `void main(int)`
-
-```cpp
-int main()
-{
-    return 1;
-}
-```
-
-``` shell
-$ echo "hello world"
-```
-
-```json
-{
-    "key" : "value"
-}
-```
-
-List of assignments
-
-- [Assignment 1](assignment-ApplicationTest/README.md)
+   ```bash
+   git clone https://github.com/PalakRakholia/Hackyourfuture-preassignments.git
